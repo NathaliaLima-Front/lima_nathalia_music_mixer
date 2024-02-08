@@ -3,10 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <title>Music Mixer</title>
 </head>
 <body>
+    <h1 class="hidden">Welcome to Music Mixer</h1>
+
+    <header id="main-title" class="grid-con">
+        <h2 class="hidden">Header section</h2>
+        <h2 class="col-span-4 m-col-start-1 m-col-end-13">Beat Maker</h2>
+    </header>
+
+    <section id="instructions-section" class="grid-con">
+        <h2 class="hidden">Instructions section</h2>
+        <h3 class="col-span-4 m-col-start-1 m-col-end-13">
+            Drag a song from the samples and drop it on one of the buttons
+        </h3>
+        <h4 class="col-span-4 m-col-start-1 m-col-end-13">
+            You can also change the music if you want
+        </h4>
+    </section>
+    
+    <div id="main-content" class="grid-con">
+        <h2 class="hidden">Main Content</h2>
+        <section id="control-sound-section" class="col-span-4 m-col-start-1 m-col-end-2">
+            <h3 class="hidden">Control Sound section</h3>
+            <div id="volume-control" class="box">
+                <span>+</span>
+                <!-- WIP - Creating volume settings -->
+                <img src="images/volume-control.png" alt="Volume control">
+                <span>-</span>
+            </div>
+            <div id="play-control" class="box">
+                <img src="images/play-pause.png" alt="play/pause button">
+
+            </div>
+            <div id="stop-control" class="box">
+                <img src="images/stop.png" alt="stop button">
+
+            </div>
+        </section>
+
+        <section class="col-span-4 m-col-start-2 m-col-end-8">
+            <div id="beat-maker-section" class="box">
+                <h3 class="hidden">Beat Maker section</h3>
+                <div id="oscillogram-section">
+                    <h3 class="hidden">Oscillogram section</h3>
+                    <img src="images/oscillogram.png" alt="Song graphic">
+                </div>
+                <div id="beat-buttons-section">
+                    <ul>
+                        <li id="pink"></li>
+                        <li id="blue"></li>
+                        <li id="green"></li>
+                        <li id="yellow"></li>
+                        <li id="red"></li>
+                        <li id="purple"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="col-span-4 m-col-start-8 m-col-end-13">
+            <h3 class="hidden">Samples section</h3>
+            <div id="samples-section" class="box">
+                <h3 class="title-section">Samples</h3>
+                <div id="samples-instruments">
+                    <img src="images/1.jpg" alt="instrument 1">
+                    <img src="images/2.jpg" alt="instrument 2">
+                    <img src="images/3.jpg" alt="instrument 3">
+                    <img src="images/4.jpg" alt="instrument 4">
+                    <img src="images/5.jpg" alt="instrument 5">
+                    <img src="images/6.jpg" alt="instrument 6">
+                    <img src="images/7.jpg" alt="instrument 7">
+                </div>
+            </div>
+        
+            <div id="songs-options-section" class="box">
+                <h3 class="hidden">Buttons section</h3>
+                <h3 class="title-section">Song's Options</h3>
+                <ul>
+                    <li><a href="#">Music 1</a></li>
+                    <li><a href="#">Music 2</a></li>
+                    <li><a href="#">Reset</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- <footer id="footer" class="grid-con">
+        <h2 class="hidden">Footer Section</h2>
+        <div class="box col-span-4 m-col-start-1 m-col-end-13">Footer</div>
+    </footer> -->
     
     <script src="js/main.js"></script>
 </body>
