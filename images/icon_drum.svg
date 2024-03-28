@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="drum" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 780">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #85d1cf;
+      }
+
+      .cls-2 {
+        fill: #4ca09d;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m66,343.76v265.41s-8,69.82,76,112.82c50.86,26.04,126.94,55,257,55,98,0,323.95-35.19,327-150,2.74-103.2-1-310-1-310,1,62-138,140-332,140-160,0-267.09-48.39-303-96-22.74-30.14-24-41-24-41v23.76Z"/>
+  <ellipse class="cls-2" cx="395.5" cy="319.5" rx="330.5" ry="152.5"/>
+  <rect class="cls-1" x="288.73" y="-44.05" width="73.54" height="427.09" rx="36.77" ry="36.77" transform="translate(-24.52 279.81) rotate(-45)"/>
+  <rect class="cls-1" x="429.41" y="-43.9" width="73.54" height="427.09" rx="36.77" ry="36.77" transform="translate(256.5 -279.95) rotate(45)"/>
+  <circle class="cls-1" cx="313" cy="321" r="60"/>
+  <circle class="cls-1" cx="477" cy="321" r="60"/>
+</svg>
