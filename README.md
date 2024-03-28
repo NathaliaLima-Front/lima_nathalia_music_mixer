@@ -5,7 +5,7 @@ ___
 
 ## About the project
 
-This website will be a game, where the user can create their music, with the instruments and audio available. Each instrument must be dragged and dropped at the designated area for the sound to be created.
+This website is a game, where the user can create their music, with the instruments and audio available. Each instrument must be dragged and dropped at the designated area for the sound to be created.
 
 ![Layout of website](images/website-image.jpg)
 
@@ -45,6 +45,8 @@ Open index.html in the browser of your choice.
 
 
 ## History
+
+March 28, 2024
 
 February 08, 2024
 
