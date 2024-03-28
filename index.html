@@ -30,75 +30,111 @@
     
     <div id="main-content" class="grid-con">
         <h2 class="hidden">Main Content</h2>
-        <section id="control-sound-section" class="col-span-4 m-col-start-1 m-col-end-2">
-            <h3 class="hidden">Control Sound section</h3>
-            <div id="volume-control" class="box">
-                <span>+</span>
-                <!-- WIP - Creating volume settings -->
-                <img src="images/volume-control.png" alt="Volume control">
-                <span>-</span>
-            </div>
-            <div id="play-control" class="box">
-                <img src="images/play-pause.png" alt="play/pause button">
 
-            </div>
-            <div id="stop-control" class="box">
-                <img src="images/stop.png" alt="stop button">
-
-            </div>
-        </section>
-
-        <section class="col-span-4 m-col-start-2 m-col-end-8">
-            <div id="beat-maker-section" class="box">
-                <h3 class="hidden">Beat Maker section</h3>
-                <div id="oscillogram-section">
-                    <h3 class="hidden">Oscillogram section</h3>
-                    <img src="images/oscillogram.png" alt="Song graphic">
-                </div>
-                <div id="beat-buttons-section">
-                    <ul>
-                        <li id="pink"></li>
-                        <li id="blue"></li>
-                        <li id="green"></li>
-                        <li id="yellow"></li>
-                        <li id="red"></li>
-                        <li id="purple"></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        
-        <section class="col-span-4 m-col-start-8 m-col-end-13">
-            <h3 class="hidden">Samples section</h3>
-            <div id="samples-section" class="box">
-                <h3 class="title-section">Samples</h3>
-                <div id="samples-instruments">
-                    <img src="images/1.jpg" alt="instrument 1">
-                    <img src="images/2.jpg" alt="instrument 2">
-                    <img src="images/3.jpg" alt="instrument 3">
-                    <img src="images/4.jpg" alt="instrument 4">
-                    <img src="images/5.jpg" alt="instrument 5">
-                    <img src="images/6.jpg" alt="instrument 6">
-                    <img src="images/7.jpg" alt="instrument 7">
-                </div>
-            </div>
-        
-            <div id="songs-options-section" class="box">
+        <div class="col-span-full grid-con m-col-start-1 m-col-end-13 mb-5">
+            <section class="col-span-4 m-col-start-1 m-col-end-6">
                 <h3 class="hidden">Buttons section</h3>
-                <h3 class="title-section">Song's Options</h3>
-                <ul>
-                    <li><a href="#">Music 1</a></li>
-                    <li><a href="#">Music 2</a></li>
-                    <li><a href="#">Reset</a></li>
+                <div class="box-section h-100">
+                    <h3 class="title-section">Sound Options</h3>
+                    <div id="sound-options-section" >
+                        <div class="audio button">
+                            <audio src="audio/song.mp3"></audio>
+                        </div>
+        
+                        <div id="play-button" class="button">
+                            <img src="images/play.png" alt="play button">
+                        </div>
+                        <div id="pause-button" class="button">
+                            <img src="images/pause.png" alt="pause button">
+                        </div>
+                        <div id="stop-button" class="button">
+                            <img src="images/stop.png" alt="stop button">
+                        </div>
+                        <div id="reset-button" class="button">
+                            <p>Reset</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-span-4 m-col-start-6 m-col-end-13">
+                <div id="beat-maker-section" class="box-section">
+                    <h3 class="hidden">Beat Maker section</h3>
+                    <div id="beat-buttons-section">
+                        <h3 class="title-section">Buttons</h3>
+                        <ul id="dropZone">
+                            <li id="pink"></li>
+                            <li id="blue"></li>
+                            <li id="green"></li>
+                            <li id="yellow"></li>
+                            <li id="red"></li>
+                            <li id="purple"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            
+        </div>
+
+        <section class="col-span-full col-span-4 m-col-start-1 m-col-end-13 mb-5">
+            <h3 class="hidden">Samples section</h3>
+            <div id="samples-section" class="box-section">
+                <h3 class="title-section">Samples</h3>
+                <ul id="samples-instruments">
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_guitar.svg" alt="instrument guitar" id="guitar">
+                        </span>
+                        <p>Guitar</p>
+                    </li>
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_eletric-guitar.svg" alt="instrument eletric-guitar" id="eletric-guitar">
+                        </span>
+                        <p>Eletric Guitar</p>
+                    </li>
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_drums.svg" alt="instrument drums" id="drums">
+                        </span>
+                        <p>Drums</p>
+                    </li>
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_piano.svg" alt="instrument piano" id="piano">
+                        </span>
+                        <p>Piano</p>
+                    </li>
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_microphone.svg" alt="instrument microphone" id="voice">
+                        </span>
+                        <p>Voice</p>
+                    </li>
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_drum.svg" alt="instrument drum" id="drum">
+                        </span>
+                        <p>Drum</p>
+                    </li>
+                    <li>
+                        <span class="instrument-spot">
+                            <img src="images/icon_xylophone.svg" alt="instrument xylophone" id="xylophon">
+                        </span>
+                        <p>Xylophon</p>
+                    </li>
                 </ul>
             </div>
         </section>
     </div>
 
-    <!-- <footer id="footer" class="grid-con">
-        <h2 class="hidden">Footer Section</h2>
-        <div class="box col-span-4 m-col-start-1 m-col-end-13">Footer</div>
-    </footer> -->
+    <section class="lightbox" id="same_spot">
+        <article>
+            <h3>Ops!</h3>
+            <p>There's already a piece in that position, please try another spot</p>
+        </article>
+    </section>
     
     <script src="js/main.js"></script>
 </body>
